@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  font-family:'Open Sans', sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+section{
+  background-size:contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container{
+  height:100%;
+  height: 100vh;
+  width:100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.drums{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+   url("./bg/drums.jpg");
+}
+.guitar{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+   url("./bg/guitar.jpg");
+}
+
+.key{
+  border: #353535 3px solid;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  background-color: #35353580;
+  height: 6em;
+  width: 6em;
+  padding: .3em;
+  transition: all .07s ease;
+}
+.playing{
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 1rem #ffc600;
+}
+kbd{
+  color: white;
+  font-size: 3em;
+  display: block;
+}
+span{
+  text-transform: uppercase;
+  color: #ffc600;
+  display: block;
+}
+
+p{
+  color: white;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}

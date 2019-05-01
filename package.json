@@ -1,0 +1,14 @@
+{
+  "name": "keyboarddrums",
+  "version": "1.0.0",
+  "description": "A Javascript Application for playing drums on your keyboard. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Aiden Berzins",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
